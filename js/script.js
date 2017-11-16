@@ -19,13 +19,13 @@ for (var x = 0; x < lis.length; x++ ){
 // another way to selecht an element by its ID is a document .getElementbyId
 document.getElementById("second-header").textContent = "something";
 
-var awesomes = document.getElementsbyClassName("awesome");
+var awesomes = document.getElementsByClassName("awesome");
 
 for (var x = 0;x < awesomes.length; x++){
   awesomes[x].textContent = x + 1;
 }
 
-var h3s = document.getElementsByTagname("h3");
+var h3s = document.getElementsByTagName("h3");
 
 for (var x = 0; x <h3s.length; x++) {
   h3s[x].textContent + "that is it"
